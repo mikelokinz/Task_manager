@@ -1,18 +1,41 @@
-# React + Vite
+# ⚡ TaskFlow - Modern Task Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**TaskFlow** is a sleek, responsive, and fully functional Task Management application built with **React**. It features a modern dark UI, smooth animations, and robust state management using React Context.
 
-Currently, two official plugins are available:
+This project was built to demonstrate proficiency in **CRUD operations**, **Routing**, **Form Validation**, and **State Persistence**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* **🎨 Modern Dark UI:** Aesthetic interface designed with Tailwind CSS.
+* **✨ Smooth Animations:** Powered by Framer Motion for list transitions and page loads.
+* **✅ Full CRUD:** Create, Read, Update, and Delete tasks.
+* **💾 Data Persistence:** Uses `localStorage` so your data survives page reloads.
+* **🔍 Search & Filter:** Real-time filtering by Task Priority and Search terms.
+* **📄 Pagination:** Handles large lists of tasks efficiently.
+* **🛡️ Form Validation:** Custom hooks ensure data integrity before submission.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+* **Frontend Library:** [React.js](https://react.dev/) (via Vite)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Routing:** [React Router DOM v6](https://reactrouter.com/)
+* **Animations:** [Framer Motion](https://www.framer.com/motion/)
+* **Icons:** [Lucide React](https://lucide.dev/)
+* **State Management:** React Context API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Installation & Initialization
+
+Follow these steps to get the project up and running on your local machine.
+
+### 1. Prerequisites
+Make sure you have **Node.js** installed on your system.
+[Download Node.js](https://nodejs.org/)
+
+### 2. Clone the Repository
+```bash
+git clone [https://github.com/your-username/project8801-task-manager.git](https://github.com/your-username/project8801-task-manager.git)
+cd project8801-task-manager
